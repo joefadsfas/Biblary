@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <div class="header">
+        <h1>My Biblary</h1>
+    </div>
+
+    <div class="main">
+
+        <div class="new-book-section">
+            <button class="new-book">+ Add book</button>
+        </div>
+
+        <div class="books">
+            
+        </div>
+
+        <div class="form">
+            <form class="add-book-form">
+                <h3>Add a new book!</h3>
+                <input type="text" class="input" id="form_title" placeholder="Title" required>
+                <input type="text" class="input" id="form_author" placeholder="Author" required>
+                <input type="number" class="input" id="form_pages" placeholder="Pages" required>
+                <div class="read">
+                    <label for="read">Have you read this book?</label>
+                    <input type="checkbox" class="input" id="form_read">
+                </div>
+                <button class="form-btn red-btn" type="reset">Cancel</button>
+                <button class="form-btn green-btn" >Add Book</button>
+            </form>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
